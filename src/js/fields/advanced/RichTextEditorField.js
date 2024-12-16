@@ -1,7 +1,5 @@
 (function ($) {
     var Alpaca = $.alpaca;
-
-    console.log("rich text editor");
     Alpaca.Fields.RichTextEditorField = Alpaca.Fields.TextAreaField.extend(
         /**
          * @lends Alpaca.Fields.RichTextEditorField.prototype
